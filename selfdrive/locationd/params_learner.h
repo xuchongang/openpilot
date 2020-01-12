@@ -6,11 +6,11 @@
 #define MAX_ANGLE_OFFSET (10.0 * DEGREES_TO_RADIANS)
 #define MAX_ANGLE_OFFSET_TH  (9.0 * DEGREES_TO_RADIANS)
 #define MIN_STIFFNESS  0.5
-#define MAX_STIFFNESS  2.0
+#define MAX_STIFFNESS  0.85
 #define MIN_SR  0.5
-#define MAX_SR  2.0
+#define MAX_SR  1.02
 #define MIN_SR_TH  0.55
-#define MAX_SR_TH  1.9
+#define MAX_SR_TH  1.01
 
 class ParamsLearner {
   double cF0, cR0;
